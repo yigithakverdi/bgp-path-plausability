@@ -12,6 +12,7 @@ Welcome to the BGP Path Plausibility project! This repository focuses on enhanci
 
 ## File Structure
 The repository is organized as follows:
+```
 bgp-path-plausability/
 │
 ├── docs/
@@ -45,3 +46,38 @@ bgp-path-plausability/
 ├── LICENSE # License information
 ├── README.md # Project overview and information
 └── requirements.txt # List of dependencies
+```
+
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Required Python packages listed in `requirements.txt`
+
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yigithakverdi/bgp-path-plausability.git
+    cd bgp-path-plausability
+    ```
+2. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running Simulations
+1. Set up the simulation environment:
+    ```bash
+    python simulations/setup_environment.py
+    ```
+2. Run the simulations:
+    ```bash
+    python simulations/run_simulations.py
+    ```
+
+### Testing
+Run unit tests to ensure everything is working correctly:
+```bash
+pytest tests/
+
